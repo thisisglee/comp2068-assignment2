@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+	html
+		head
+			script(src='../javascripts/javascript.js')
+		body
+			h1 Round-3
+			p Choose the winner of bout
+			h2 Bout-1
+			button(onclick='displayPlayer()') player-1
+			button(onclick='displayPlayer1()') player-2
+			p#player1
+			button
+				a(href='/') Finish!

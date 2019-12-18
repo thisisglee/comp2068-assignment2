@@ -1,0 +1,19 @@
+extends ../layout
+
+block content
+	html
+		head
+			script(src='../javascripts/javascript.js')
+		body
+			h1 Round-2
+			p Choose the winner of bout
+			h2 Bout-1
+			button(onclick='displayPlayer()') player-1
+			button(onclick='displayPlayer1()') player-2
+			p#player1
+			h2 Bout-2
+			button(onclick='displayPlayer2()') player-1
+			button(onclick='displayPlayer3()') player-2
+			p#player2
+			button 
+				a(href='/round3') Let's Move to Round-3

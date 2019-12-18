@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+    h1 Let's Create Tournament
+    form.form
+        .form-group
+            label(for='exampleFormControlInput1') Tournament name
+            input.form-control(type='text', placeholder='NAME OF GAME', name='tournament')
+        .form-group
+            label(for='exampleFormControlTextarea1') Discription
+            textarea#exampleFormControlTextarea1.form-control(rows='3', name='discription')
+        button
+            a(href='/player') Lets Move
+
